@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Signika-Bold
+font link: https://fonts.google.com/specimen/Signika
+font author: Anna Giedryś
+font author site: http://ancymonic.com/
+
+
+icon designer: Francesca Ciafrè
+icon designer link: /francesca.ciafre
+        
+{"bg":"#689D46","icon":"#EBC416","font":"#EBC416","slogan":"#ffd82a"}
+      
