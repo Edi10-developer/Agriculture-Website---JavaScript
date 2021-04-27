@@ -35,6 +35,10 @@ Import Google Fonts
 /*--------------------
 1. General
 --------------------*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
   margin: 0px;
@@ -269,7 +273,15 @@ header .intro-text .intro-heading {
   font-size: 15px;
   font-weight: 300;
   line-height: 25px;
-  margin: 20px 100px 60px 100px;
+  margin: 20px 100px 60px 50px;
+}
+
+@media(max-width: 478px){
+   
+    .section-title p {
+        text-align: left;
+        margin: 20px 10px;
+    }
 }
 
 /*--------------------
@@ -528,14 +540,18 @@ figure.effect-bubba:hover p {
   padding-bottom: 110px;
 }
 
+.counter-item{
+    margin: 20px;
+}
+
 .counter-item h2 {
   color: #fff;
   font-size: 60px;
-  margin: 0;
+  margin-top: 0;
 }
 
 .counter-item h6 {
-  color: #fff;
+  color:#EAC415;
   font-size: 19px;
   margin: 0;
 }
