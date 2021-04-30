@@ -195,7 +195,7 @@ section {
 --------------------*/
 
 header {
-  background-image: url(../images/demo/bg-main.jpg);
+  /*background-image: url(../images/demo/bg-main.jpg);*/
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -258,7 +258,20 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     font-size: 25px;
   }
+  .intro-text{
+    height: 49rem;
+  }
 }
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
 
 /*--------------------
 4. Sections
