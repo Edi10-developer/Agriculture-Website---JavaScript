@@ -212,6 +212,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 
+
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -258,8 +259,8 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     font-size: 25px;
   }
-  .intro-text{
-    height: 49rem;
+  header .intro-text{
+    height: 50rem;
   }
 }
 
@@ -621,10 +622,17 @@ figure.effect-bubba:hover p {
   padding: 5px 10px 20px 10px;
 }
 
+.team-item .team-image img{
+  margin: 0 auto;
+}
+
 /*--------------------
 4.7. Contacts
 --------------------*/
-
+#map{
+  margin-top: -80px;
+  margin-bottom: -70px;
+} 
 section#contact form {
   margin-top: 15px;
 }
