@@ -895,7 +895,7 @@ footer p a span {
 
 @media(max-width: 478px){
   #cookies {
-      top: 50%;
-      padding-bottom:
+      top: 85%;
+      padding-bottom: 1rem;
   }
 }
