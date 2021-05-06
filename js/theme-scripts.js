@@ -68,3 +68,8 @@ $('.owl-carousel').owlCarousel({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// COOKIES
+$('#cookies button').click(() =>{
+  $('#cookies').css("display", "none");
+});

@@ -29,7 +29,7 @@
 		<![endif]-->
 </head>
 
-<body id="page-top">
+<body class="page-top">
 	<!-- Navigation -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -80,9 +80,11 @@
 					<video autoplay muted loop id="myVideo">
 						<source src="./images/video/videoUva3.mp4" type="video/mp4">
 					</video>
-					<div class="intro-lead-in">Felici di lavorare per voi</div>
-					<div class="intro-heading">Professionisti dell'agricoltura</div>
-					<a href="#contact" class="page-scroll btn btn-xl">Chiama Ora</a>
+					<div class="intro-center-content">
+						<div class="intro-lead-in">Felici di lavorare per voi</div>
+						<div class="intro-heading">Professionisti dell'agricoltura</div>
+						<a href="#contact" class="page-scroll btn btn-xl">Chiama Ora</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -408,7 +410,7 @@
 						<div class="team-image" overflow="hidden">
 							<img src="images/demo/author-2.jpg" class="img-responsive text-center" alt="author">
 						</div>
-						<div class="team-text">	
+						<div class="team-text">
 							<div class="team-position">– CEO –</div>
 							<h3>PALUSH BASHA</h3>
 							<div class="team-location">Albania</div>
@@ -420,9 +422,11 @@
 			</div>
 		</div>
 	</section>
-		<!--<section>-->
+	<!--<section>-->
 	<section id="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2776.5660063036003!2d12.54426151557213!3d45.899992379108525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47796601b8093329%3A0xca899d0041a24f4d!2sVia%20Cavour%2C%2033070%20Brugnera%20PN!5e0!3m2!1sen!2sit!4v1619792944366!5m2!1sen!2sit" width="100%" height="300" style="border:0;" padding="0" allowfullscreen="" loading="lazy"></iframe>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2776.5660063036003!2d12.54426151557213!3d45.899992379108525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47796601b8093329%3A0xca899d0041a24f4d!2sVia%20Cavour%2C%2033070%20Brugnera%20PN!5e0!3m2!1sen!2sit!4v1619792944366!5m2!1sen!2sit"
+			width="100%" height="300" style="border:0;" padding="0" allowfullscreen="" loading="lazy"></iframe>
 	</section>
 	<!--<section>-->
 	<section id="contact" class="light-bg">
@@ -449,7 +453,7 @@
 					<p><i class="fa fa-clock-o"></i> <span class="day">Domenica:</span><span>Chiuso</span></p>
 				</div>
 				<div class="col-md-6">
-					<form name="sentMessage" id="contactForm" novalidate="">
+					<form name="sentMessage" id="contactForm" novalidate=""action="contact.php" method="post" >
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
@@ -492,8 +496,8 @@
 	</p>
 	<footer>
 		<div class="container text-center">
-			<p><a href="./pages/privacy.html">-Privacy Policy</a> <a href="./pages/cookies.html">-Cookies Policy</a> -Powered by <a
-				href="http://moozthemes.com"><span>MOOZ</span>Themes.com</a></p>
+			<p><a href="./pages/privacy.html">-Privacy Policy</a> <a href="./pages/cookies.html">-Cookies Policy</a>
+				-Powered by <a href="http://moozthemes.com"><span>MOOZ</span>Themes.com</a></p>
 			<p>Disegnato da <a href="https://ediselimi.com">Edi Selimi</a> &copy; 2021</p>
 		</div>
 	</footer>
@@ -510,8 +514,11 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Il frutto</span></div>
-					<p>L'uva è un frutto, botanicamente una bacca, delle viti legnose decidue del genere Vitis della pianta in fiore.
-						Le uve possono essere consumate fresche come uva da tavola, o possono essere utilizzate per produrre vino, marmellata, succo, gelatina, estratto di semi d'uva, uva passa, aceto e olio di semi d'uva. L'uva è un tipo di frutto non climaterico, generalmente presente a grappoli.</p>
+					<p>L'uva è un frutto, botanicamente una bacca, delle viti legnose decidue del genere Vitis della
+						pianta in fiore.
+						Le uve possono essere consumate fresche come uva da tavola, o possono essere utilizzate per
+						produrre vino, marmellata, succo, gelatina, estratto di semi d'uva, uva passa, aceto e olio di
+						semi d'uva. L'uva è un tipo di frutto non climaterico, generalmente presente a grappoli.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -532,7 +539,8 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Lieviti</span></div>
-					<p>La trasformazione dell’uva in vino è dovuta alla fermentazione alcolica del mosto, grazie ai lieviti naturali presenti nella buccia.</p>
+					<p>La trasformazione dell’uva in vino è dovuta alla fermentazione alcolica del mosto, grazie ai
+						lieviti naturali presenti nella buccia.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -553,7 +561,12 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-3.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Nutrizione</span></div>
-					<p>L'uva contiene tanta acqua ma anche zuccheri (glucosio e fruttosio), fibre nella buccia, molti sali minerali, soprattutto potassio, ferro e manganese, vitamine A e B. Ottima come drenante, depurativa, detossificante, è ricca di antiossidanti, antocianine, flavonoidi, polifenoli, rosveratrolo ( nella buccia degli acini d’uva rossa) dalle propietà antiossidanti contro i radicali liberi e antiinfiammatorie, buona per il sistema cardiovascolare e rinforza le difese immunitarie.</p>
+					<p>L'uva contiene tanta acqua ma anche zuccheri (glucosio e fruttosio), fibre nella buccia, molti
+						sali minerali, soprattutto potassio, ferro e manganese, vitamine A e B. Ottima come drenante,
+						depurativa, detossificante, è ricca di antiossidanti, antocianine, flavonoidi, polifenoli,
+						rosveratrolo ( nella buccia degli acini d’uva rossa) dalle propietà antiossidanti contro i
+						radicali liberi e antiinfiammatorie, buona per il sistema cardiovascolare e rinforza le difese
+						immunitarie.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -574,7 +587,8 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Simbolo</span></div>
-					<p> l'Uva e il Vino sono simboli di rinascita, di amore, di pace, di goia, di rivincita sulla morte. Con la sua Abbondanza, l'uva riporta la vita dove sembrava che non potesse più esserci.</p>
+					<p> l'Uva e il Vino sono simboli di rinascita, di amore, di pace, di goia, di rivincita sulla morte.
+						Con la sua Abbondanza, l'uva riporta la vita dove sembrava che non potesse più esserci.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -595,7 +609,11 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-6.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Vendemmia</span></div>
-					<p>Il periodo di vendemmia varia tra luglio e ottobre (nell'emisfero boreale) e tra febbraio e aprile (nell'emisfero australe), e dipende da molti fattori, anche se in maniera generica si identifica con il periodo in cui le uve hanno raggiunto il grado di maturazione desiderato, cioè quando nell'acino il rapporto tra la percentuale di zuccheri e quella di acidi ha raggiunto il valore ottimale per il tipo di vino che si vuole produrre.</p>
+					<p>Il periodo di vendemmia varia tra luglio e ottobre (nell'emisfero boreale) e tra febbraio e
+						aprile (nell'emisfero australe), e dipende da molti fattori, anche se in maniera generica si
+						identifica con il periodo in cui le uve hanno raggiunto il grado di maturazione desiderato, cioè
+						quando nell'acino il rapporto tra la percentuale di zuccheri e quella di acidi ha raggiunto il
+						valore ottimale per il tipo di vino che si vuole produrre.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -616,7 +634,8 @@
 				<div class="modal-body">
 					<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
 					<div class="modal-works"><span>Varieta</span></div>
-					<p>Le 10 varietà piu conosciute partendo dalle bianche: Italia, Pizzutella, Victoria, Melissa, Scarlotta Seedless, Red Globe, Apulia Rose, Cardinal, Black Magic e Autumn Royal. </p>
+					<p>Le 10 varietà piu conosciute partendo dalle bianche: Italia, Pizzutella, Victoria, Melissa,
+						Scarlotta Seedless, Red Globe, Apulia Rose, Cardinal, Black Magic e Autumn Royal. </p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
@@ -624,6 +643,13 @@
 			</div>
 		</div>
 	</div>
+	
+	<!--COOKIES-->
+	<div id="cookies" tabindex="-1" role="dialog" aria-labelledby="Modal-label-6">
+		<h5>Questo sito utilizza <a href="./pages/cookies.html">Cookies</a> per migliorare la user experience!</h5>
+		<button class="btn btn-s">Ho capito!</button>
+	</div>
+
 	<!-- Bootstrap core JavaScript
 			================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
