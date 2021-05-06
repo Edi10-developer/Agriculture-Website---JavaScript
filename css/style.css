@@ -205,13 +205,14 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: #fff;
+  height: 70rem;
+  margin-bottom: -4rem;
 }
 
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 10px;
 }
-
 
 @media (min-width: 768px) {
   header .intro-text {
@@ -229,6 +230,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  color: rgba(240, 196, 18, .8)
 }
 
 @media (min-width: 768px) {
@@ -247,6 +249,7 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+  color: rgba(255, 255, 255, .98)
 }
 
 @media (min-width: 768px) {
@@ -319,6 +322,7 @@ header .intro-text .intro-heading {
 /*--------------------
 4.1. About
 --------------------*/
+
 
 .mz-module-about h3 {
   font-weight: 500;
@@ -892,6 +896,6 @@ footer p a span {
 @media(max-width: 478px){
   #cookies {
       top: 50%;
-      padding-bottom: .7rem;
+      padding-bottom:
   }
 }
