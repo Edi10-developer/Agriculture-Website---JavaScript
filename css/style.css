@@ -888,7 +888,7 @@ footer p a span {
   position: fixed;
   bottom: 0;
   background-color: rgba(0, 0, 0, .9);
-  height: 11rem;
+  height: 12rem;
   width: 100%;
   padding: 1rem 3rem;
   z-index: 3;
@@ -897,16 +897,16 @@ footer p a span {
 #cookies h5{
   color: white;
   margin: 2rem auto;
-  margin-bottom: .3rem;
 }
 
 #cookies  a{
   color: yellow;
+  margin-bottom: 1rem;
 }
 
 @media(max-width: 478px){
   #cookies {
-      top: 85%;
-      padding-bottom: 1rem;
+      top: 73%;
+      padding-bottom: 2rem;
   }
 }
