@@ -305,6 +305,10 @@ header .intro-text .intro-heading {
   margin-bottom: 3rem;
 }
 
+.content ul li{
+  color: rgba(0, 0, 0, 0.55)
+}
+
 @media(max-width: 767px){
   .content{
     margin-top: 6rem;
@@ -693,29 +697,100 @@ section#contact .form-group textarea {
 5. Footer
 --------------------*/
 
-footer {
-  padding: 30px;
-  background-color: #000;
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#000000f5;
 }
 
-footer p {
-  color: #b7b7b7;
-  margin: 0;
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 1.6px;
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+  color:#fff;
 }
 
-footer p a {
-  color: #fff;
+.footer-dark p {
+  font-weight:bold;
+  font-size:12px;
+  color:#fff;
 }
 
-footer p a span {
-  color: #ff9f46;
-  font-size: 10px;
-  letter-spacing: 1px;
-  font-weight: 700;
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.7;
+}
+
+.footer-dark ul a:hover {
+  color: yellow;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
 }
 
 /*--------------------
@@ -891,7 +966,7 @@ footer p a span {
   height: 12rem;
   width: 100%;
   padding: 1rem 3rem;
-  z-index: 3;
+  z-index: 1000;
 }
 
 #cookies h5{
@@ -899,7 +974,7 @@ footer p a span {
   margin: 2rem auto;
 }
 
-#cookies  a{
+#cookies a{
   color: yellow;
   margin-bottom: 1rem;
 }
