@@ -73,3 +73,4 @@ $('.navbar-collapse ul li a').click(function() {
 $('#cookies button').click(() =>{
   $('#cookies').css("display", "none");
 });
+
