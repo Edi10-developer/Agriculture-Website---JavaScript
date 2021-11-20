@@ -18,8 +18,7 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   //
  
-  $mail_status = mail( "renoge5731@dghetian.com", $_POST['subject'], $_POST['message'], $headers );
-  //$mail_status = mail( "renoge5731@dghetian.com", $_POST['message'], $headers );
+  $mail_status = mail( "info@korg3m.it", $_POST['subject'], $_POST['message'], $headers );
  
   //      ^
   //  Replace with your email 
@@ -27,14 +26,14 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   if ($mail_status) { ?>
     <script language="javascript" type="text/javascript" >
-      alert('Thank you for the message. We will contact you shortly.');
+      alert('Grazie per il suo messaggio, contatteremo con lei al piu presto.');
       window.location = 'index.html';
     </script>
     <?php
   }
   else { ?>
       <script language="javascript" type="text/javascript">
-        alert('Message failed. Please, send an email to ronildabeautycorner@gmail.com');
+        alert('Errore! perfavore inviare una mail al bashapalush9@gmail.com');
         window.location = 'index.html';
       </script>
       <?php
